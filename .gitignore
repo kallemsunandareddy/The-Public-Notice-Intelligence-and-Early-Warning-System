@@ -16,10 +16,9 @@ venv.bak/
 *.env
 !.env.example
 
-# Databases & local sqlite
-*.db
-*.sqlite
-*.sqlite3
+# Production database (included so deployment has full users & notices ready to use)
+!civic_notices.db
+!backend/civic_notices.db
 
 # Logs
 *.log
